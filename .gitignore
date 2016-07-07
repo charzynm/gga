@@ -1,3 +1,5 @@
 .idea
 gga.iml
+gga-core/gga-core.iml
+gga-core/target
 env.properties
