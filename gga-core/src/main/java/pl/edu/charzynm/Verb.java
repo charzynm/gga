@@ -1,8 +1,9 @@
 package pl.edu.charzynm;
 
+import java.util.Optional;
+
 public class Verb {
     private String name;
-    private boolean isSeparable;
 
     public Verb(String name) {
         this.name = name;
@@ -13,12 +14,23 @@ public class Verb {
     }
 
     public boolean isSeparable() {
-        for (SeparableVerbsPrefixes prefix : SeparableVerbsPrefixes.values()) {
-            if (name.startsWith(prefix.getValue())) {
-                return true;
-            }
-        }
-        return false;
+        return findSeparableParticle().isPresent();
     }
 
+    private Optional<String> findSeparableParticle() {
+        for (SeparableVerbsPrefixes prefix : SeparableVerbsPrefixes.values()) {
+            if (name.startsWith(prefix.getValue())) {
+                return Optional.of(prefix.getValue());
+            }
+        }
+        return Optional.empty();
+    }
+
+    public String getSeparableParticle() {
+        return findSeparableParticle().orElse("");
+    }
+
+    public String getLexicalCore() {
+        return name.replaceFirst(getSeparableParticle(), "");
+    }
 }

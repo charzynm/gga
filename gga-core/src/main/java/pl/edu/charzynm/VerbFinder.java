@@ -20,6 +20,6 @@ public class VerbFinder {
     }
 
     private boolean findSeparableVerb() {
-        return false;
+        return this.sentence.contains(verb.getLexicalCore()) && this.sentence.contains(verb.getSeparableParticle());
     }
 }
