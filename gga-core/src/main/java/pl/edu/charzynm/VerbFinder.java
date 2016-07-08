@@ -1,16 +1,18 @@
 package pl.edu.charzynm;
 
 public class VerbFinder {
-    private Verb verb;
-    private String sentence;
+    private final Verb verb;
+    private final String sentence;
+    private final VerbAnalyzer verbAnalyzer;
 
     public VerbFinder(Verb verb, String sentence) {
         this.verb = verb;
         this.sentence = sentence;
+        this.verbAnalyzer = new VerbAnalyzer(verb);
     }
 
     public boolean findVerb() {
-        if (this.verb.isSeparable()) {
+        if (this.verbAnalyzer.isSeparable()) {
             return findSeparableVerb();
         } else if (this.sentence.contains(verb.getName())) {
             return true;
@@ -20,6 +22,6 @@ public class VerbFinder {
     }
 
     private boolean findSeparableVerb() {
-        return this.sentence.contains(verb.getLexicalCore()) && this.sentence.contains(verb.getSeparableParticle());
+        return this.sentence.contains(verbAnalyzer.getLexicalCore()) && this.sentence.contains(verbAnalyzer.getSeparableParticle());
     }
 }
