@@ -14,7 +14,7 @@ public class VerbFinder {
     public boolean findVerb() {
         if (this.verbAnalyzer.isSeparable()) {
             return findSeparableVerb();
-        } else if (this.sentence.contains(verb.getName())) {
+        } else if (this.sentence.contains(verbAnalyzer.getRoot())) {
             return true;
         }
 
@@ -22,6 +22,6 @@ public class VerbFinder {
     }
 
     private boolean findSeparableVerb() {
-        return this.sentence.contains(verbAnalyzer.getLexicalCore()) && this.sentence.contains(verbAnalyzer.getSeparableParticle());
+        return this.sentence.contains(verbAnalyzer.getRoot()) && this.sentence.contains(verbAnalyzer.getSeparableParticle());
     }
 }

@@ -14,6 +14,24 @@ public class VerbFinderTest {
     }
 
     @Test
+    public void findVerbWithASuffix() {
+        String sentence = "Ich mache jetzt Würstchen ohne Fleisch.";
+
+        VerbFinder verbFinder = new VerbFinder(new Verb("machen"), sentence);
+        assertTrue(verbFinder.findVerb());
+
+        sentence = "Dinge, die du machst, wenn du besoffen nach Hause kommst.";
+
+        verbFinder = new VerbFinder(new Verb("machen"), sentence);
+        assertTrue(verbFinder.findVerb());
+
+        sentence = "Er macht jetzt wieder Straßenmusik";
+
+        verbFinder = new VerbFinder(new Verb("machen"), sentence);
+        assertTrue(verbFinder.findVerb());
+    }
+
+    @Test
     public void findVerb() {
         String sentence = "Wir machen die Musik!";
 

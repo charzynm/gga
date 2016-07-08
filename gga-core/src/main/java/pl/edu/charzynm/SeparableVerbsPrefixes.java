@@ -14,8 +14,28 @@ public enum SeparableVerbsPrefixes {
     ENTZWEI("entzwei"),
     FERN("fern"),
     FEST("fest"),
-    FORT("fort");
-    //, für, gegen, gegenüber, heim, hinterher, hoch, los, mit, nach, neben, nieder, vor, weg, weiter, zu, zurecht, zurück, zusammen, da, hin, her
+    FORT("fort"),
+    FUR("für"),
+    GEGEN("gegen"),
+    GEGENUBER("gegenüber"),
+    HEIM("heim"),
+    HINTERHER("hinterher"),
+    HOCH("hoch"),
+    LOS("los"),
+    MIT("mit"),
+    NACH("nach"),
+    NEBEN("neben"),
+    NIEDER("nieder"),
+    VOR("vor"),
+    WEB("weg"),
+    WEITER("weiter"),
+    ZU("zu"),
+    ZURECHT("zurecht"),
+    ZURUCK("zurück"),
+    ZUSAMMEN("zusammen"),
+    DA("da"),
+    HIN("hin"),
+    HER("her");
 
     private String value;
 
