@@ -1,15 +1,11 @@
 package pl.edu.charzynm;
 
-public class Verb {
-    private String name;
+public class Verb extends Word {
+
     private boolean weak = true;
 
     public Verb(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
+        super(name);
     }
 
     public boolean isWeak() {
