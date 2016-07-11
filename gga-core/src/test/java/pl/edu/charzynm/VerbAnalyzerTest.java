@@ -57,5 +57,65 @@ public class VerbAnalyzerTest {
         verbAnalyzer = new VerbAnalyzer(new Verb("machen"));
         assertEquals("en", verbAnalyzer.getSuffix());
     }
+
+    @Test
+    public void testPrasensConjugation() {
+        VerbAnalyzer verbAnalyzer = new VerbAnalyzer(new Verb("liebe"));
+        assertEquals("e", verbAnalyzer.getSuffix());
+
+        verbAnalyzer = new VerbAnalyzer(new Verb("liebst"));
+        assertEquals("st", verbAnalyzer.getSuffix());
+
+        verbAnalyzer = new VerbAnalyzer(new Verb("liebt"));
+        assertEquals("t", verbAnalyzer.getSuffix());
+
+        verbAnalyzer = new VerbAnalyzer(new Verb("lieben"));
+        assertEquals("en", verbAnalyzer.getSuffix());
+    }
+
+    @Test
+    public void testImperfektConjugation() {
+        VerbAnalyzer verbAnalyzer = new VerbAnalyzer(new Verb("liebte"));
+        assertEquals("te", verbAnalyzer.getSuffix());
+
+        verbAnalyzer = new VerbAnalyzer(new Verb("liebtest"));
+        assertEquals("test", verbAnalyzer.getSuffix());
+
+        verbAnalyzer = new VerbAnalyzer(new Verb("liebten"));
+        assertEquals("ten", verbAnalyzer.getSuffix());
+
+        verbAnalyzer = new VerbAnalyzer(new Verb("liebtet"));
+        assertEquals("tet", verbAnalyzer.getSuffix());
+    }
+
+    @Test
+    public void testPartizipPerfektConjugation() {
+        VerbAnalyzer verbAnalyzer = new VerbAnalyzer(new Verb("geliebt"));
+        assertEquals("t", verbAnalyzer.getSuffix());
+
+        verbAnalyzer = new VerbAnalyzer(new Verb("geliebter"));
+        assertEquals("ter", verbAnalyzer.getSuffix());
+
+        verbAnalyzer = new VerbAnalyzer(new Verb("geliebte"));
+        assertEquals("te", verbAnalyzer.getSuffix());
+
+        verbAnalyzer = new VerbAnalyzer(new Verb("geliebtes"));
+        assertEquals("tes", verbAnalyzer.getSuffix());
+    }
+
+    @Test
+    public void testPartizipPrasensConjugation() {
+        VerbAnalyzer verbAnalyzer = new VerbAnalyzer(new Verb("liebend"));
+        assertEquals("d", verbAnalyzer.getSuffix());
+
+        verbAnalyzer = new VerbAnalyzer(new Verb("liebender"));
+        assertEquals("der", verbAnalyzer.getSuffix());
+
+        verbAnalyzer = new VerbAnalyzer(new Verb("liebende"));
+        assertEquals("de", verbAnalyzer.getSuffix());
+
+        verbAnalyzer = new VerbAnalyzer(new Verb("liebendes"));
+        assertEquals("des", verbAnalyzer.getSuffix());
+    }
 }
 

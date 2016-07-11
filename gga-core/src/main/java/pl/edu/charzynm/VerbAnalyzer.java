@@ -43,7 +43,7 @@ public class VerbAnalyzer {
     }
 
     private Optional<String> findSuffix() {
-        for (WeakVerbSuffixes suffix : WeakVerbSuffixes.values()) {
+        for (WeakVerbConjugationSuffixes suffix : WeakVerbConjugationSuffixes.values()) {
             if (this.verb.getName().endsWith(suffix.getValue())) {
                 return Optional.of(suffix.getValue());
             }
