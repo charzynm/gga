@@ -15,7 +15,7 @@ public class VocabularyListTest {
     @Test
     public void readVocabularyList() throws ScriptException, IOException, URISyntaxException {
         VocabularyList vocabularyList = new VocabularyList();
-        List<Word> wordList = vocabularyList.readVocabularyList();
+        List<? extends Word> wordList = vocabularyList.readVocabularyList();
         assertEquals("ausprobieren", wordList.iterator().next().getName());
     }
 }
