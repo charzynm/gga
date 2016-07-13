@@ -49,17 +49,13 @@ public class VocabularyList {
     private List<? extends Word> readWordsFromAVocabularyList(Map wordsValue) {
         List<Word> words = new ArrayList<>();
         wordsValue.forEach((wordsKey, wordValue) -> {
-            words.addAll(readWordNameFromAVocabularyList((Map) wordValue));
+            Map wordInfo = (Map) wordValue;
+            String wordType = wordInfo.get("wortart").toString();
+            String name = wordInfo.get("name").toString();
+            if ("verb".equals(wordType)) {
+                words.add(new Verb(name));
+            }
         });
         return words;
     }
-
-    private List<? extends Word> readWordNameFromAVocabularyList(Map wordsValue) {
-        List<Verb> words = new ArrayList<>();
-        wordsValue.forEach((wordsKey, wordValue) -> {
-            words.add(new Verb((String) wordValue));
-        });
-        return words;
-    }
-
 }
