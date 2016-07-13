@@ -35,23 +35,22 @@ public class VocabularyList {
             throw new RuntimeException("An error has occured while evaluating '.json' file with the vocabulary list.");
         }
 
-        return readWordsFromAllVocabularyLists((Map) result);
+        return readWordsFromAllVocabularyLists((Map<String, Map<String, Map>>) result);
     }
 
-    private List<? extends Word> readWordsFromAllVocabularyLists(Map contents) {
+    private List<? extends Word> readWordsFromAllVocabularyLists(Map<String, Map<String, Map>> contents) {
         List<Word> words = new ArrayList<>();
         contents.forEach((vocabularyListKey, wordsValue) -> {
-            words.addAll(readWordsFromAVocabularyList((Map) wordsValue));
+            words.addAll(readWordsFromAVocabularyList(wordsValue));
         });
         return words;
     }
 
-    private List<? extends Word> readWordsFromAVocabularyList(Map wordsValue) {
+    private List<? extends Word> readWordsFromAVocabularyList(Map<String, Map> wordsValue) {
         List<Word> words = new ArrayList<>();
         wordsValue.forEach((wordsKey, wordValue) -> {
-            Map wordInfo = (Map) wordValue;
-            String wordType = wordInfo.get("wortart").toString();
-            String name = wordInfo.get("name").toString();
+            String wordType = wordValue.get("wortart").toString();
+            String name = wordValue.get("name").toString();
             if ("verb".equals(wordType)) {
                 words.add(new Verb(name));
             }
