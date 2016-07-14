@@ -1,17 +1,17 @@
 package pl.edu.charzynm;
 
-public class VerbFinder {
-    private final Verb verb;
+public class VerbFinder extends WordFinder {
     private final String sentence;
     private final VerbAnalyzer verbAnalyzer;
 
     public VerbFinder(Verb verb, String sentence) {
-        this.verb = verb;
+        super(verb, sentence);
         this.sentence = sentence;
         this.verbAnalyzer = new VerbAnalyzer(verb);
     }
 
-    public boolean findVerb() {
+    @Override
+    public boolean find() {
         if (this.verbAnalyzer.isSeparable()) {
             return findSeparableVerb();
         } else if (this.sentence.contains(verbAnalyzer.getRoot())) {

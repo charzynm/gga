@@ -9,7 +9,7 @@ public class WordFinder {
         this.sentence = sentence;
     }
 
-    public boolean findWord() {
+    public boolean find() {
         return this.sentence.contains(this.word.getName());
     }
 }

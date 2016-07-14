@@ -10,7 +10,7 @@ public class VerbFinderTest {
         String sentence = "Wir fangen an zu lesen!";
 
         VerbFinder verbFinder = new VerbFinder(new Verb("anfangen"), sentence);
-        assertTrue(verbFinder.findVerb());
+        assertTrue(verbFinder.find());
     }
 
     @Test
@@ -18,17 +18,17 @@ public class VerbFinderTest {
         String sentence = "Ich mache jetzt Würstchen ohne Fleisch.";
 
         VerbFinder verbFinder = new VerbFinder(new Verb("machen"), sentence);
-        assertTrue(verbFinder.findVerb());
+        assertTrue(verbFinder.find());
 
         sentence = "Dinge, die du machst, wenn du besoffen nach Hause kommst.";
 
         verbFinder = new VerbFinder(new Verb("machen"), sentence);
-        assertTrue(verbFinder.findVerb());
+        assertTrue(verbFinder.find());
 
         sentence = "Er macht jetzt wieder Straßenmusik";
 
         verbFinder = new VerbFinder(new Verb("machen"), sentence);
-        assertTrue(verbFinder.findVerb());
+        assertTrue(verbFinder.find());
     }
 
     @Test
@@ -36,6 +36,6 @@ public class VerbFinderTest {
         String sentence = "Wir machen die Musik!";
 
         VerbFinder verbFinder = new VerbFinder(new Verb("machen"), sentence);
-        assertTrue(verbFinder.findVerb());
+        assertTrue(verbFinder.find());
     }
 }
