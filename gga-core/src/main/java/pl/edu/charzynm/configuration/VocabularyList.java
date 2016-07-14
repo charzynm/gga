@@ -35,22 +35,32 @@ public class VocabularyList {
             throw new RuntimeException("An error has occured while evaluating '.json' file with the vocabulary list.");
         }
 
-        return readWordsFromAllVocabularyLists((Map<String, Map<String, Map<String, String>>>) result);
+        return readWordsFromAllVocabularyLists((Map<String, Map<String, List<Map<String, String>>>>) result);
     }
 
-    private List<? extends Word> readWordsFromAllVocabularyLists(Map<String, Map<String, Map<String, String>>> contents) {
+    private List<? extends Word> readWordsFromAllVocabularyLists(Map<String, Map<String, List<Map<String, String>>>> contents) {
         List<Word> words = new ArrayList<>();
-        contents.forEach((vocabularyListKey, wordsValue) -> words.addAll(readWordsFromAVocabularyList(wordsValue)));
+        contents.forEach((vocabularyListKey, wordsValue) -> words.addAll(readVocabularyLists(wordsValue)));
         return words;
     }
 
-    private List<? extends Word> readWordsFromAVocabularyList(Map<String, Map<String, String>> wordsValue) {
+    private List<? extends Word> readVocabularyLists(Map<String, List<Map<String, String>>> wordsValue) {
         List<Word> words = new ArrayList<>();
-        wordsValue.forEach((wordsKey, wordValue) -> {
-            String wordType = wordValue.get("wortart");
-            String name = wordValue.get("name");
+        wordsValue.forEach((wordsKey, wordValue) -> words.addAll(readWordsFromAVocabularyList(wordValue)));
+        return words;
+    }
+
+    private List<? extends Word> readWordsFromAVocabularyList(List<Map<String, String>> wordsValue) {
+        List<Word> words = new ArrayList<>();
+        wordsValue.forEach((word) -> {
+            String wordType = word.get("wortart");
+            String name = word.get("name");
             if ("verb".equals(wordType)) {
                 words.add(new Verb(name));
+            } else if ("nomen".equals(wordType) || "adjektiv".equals(wordType) || "adverb".equals(wordType)) {
+                words.add(new Word(name));
+            } else {
+                words.add(new Word(name));
             }
         });
         return words;

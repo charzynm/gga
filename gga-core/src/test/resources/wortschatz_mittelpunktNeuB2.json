@@ -1,8 +1,14 @@
 {
   "wortschatz": {
-    "wort": {
-      "wortart": "verb",
-      "name": "ausprobieren"
-    }
+    "woerter": [
+      {
+        "wortart": "verb",
+        "name": "ausprobieren"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Bedeutung"
+      }
+    ]
   }
 }

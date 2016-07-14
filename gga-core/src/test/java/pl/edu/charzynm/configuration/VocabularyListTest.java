@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.util.Iterator;
 import java.util.List;
 
 import javax.script.ScriptException;
@@ -16,6 +17,9 @@ public class VocabularyListTest {
     public void readVocabularyList() throws ScriptException, IOException, URISyntaxException {
         VocabularyList vocabularyList = new VocabularyList();
         List<? extends Word> wordList = vocabularyList.readVocabularyList();
-        assertEquals("ausprobieren", wordList.iterator().next().getName());
+        
+        final Iterator<? extends Word> iterator = wordList.iterator();
+        assertEquals("ausprobieren", iterator.next().getName());
+        assertEquals("Bedeutung", iterator.next().getName());
     }
 }
