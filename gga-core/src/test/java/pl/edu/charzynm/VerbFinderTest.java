@@ -9,33 +9,34 @@ public class VerbFinderTest {
     public void findSeparableVerb() {
         String sentence = "Wir fangen an zu lesen!";
 
-        VerbFinder verbFinder = new VerbFinder(new Verb("anfangen"), sentence);
-        assertTrue(verbFinder.find());
+        VerbFinder verbFinder = new VerbFinder(sentence);
+        assertTrue(verbFinder.find(new Verb("anfangen")));
     }
 
     @Test
     public void findVerbWithASuffix() {
         String sentence = "Ich mache jetzt Würstchen ohne Fleisch.";
 
-        VerbFinder verbFinder = new VerbFinder(new Verb("machen"), sentence);
-        assertTrue(verbFinder.find());
+        Verb verb = new Verb("machen");
+        VerbFinder verbFinder = new VerbFinder(sentence);
+        assertTrue(verbFinder.find(verb));
 
         sentence = "Dinge, die du machst, wenn du besoffen nach Hause kommst.";
 
-        verbFinder = new VerbFinder(new Verb("machen"), sentence);
-        assertTrue(verbFinder.find());
+        verbFinder = new VerbFinder(sentence);
+        assertTrue(verbFinder.find(verb));
 
         sentence = "Er macht jetzt wieder Straßenmusik";
 
-        verbFinder = new VerbFinder(new Verb("machen"), sentence);
-        assertTrue(verbFinder.find());
+        verbFinder = new VerbFinder(sentence);
+        assertTrue(verbFinder.find(verb));
     }
 
     @Test
     public void findVerb() {
         String sentence = "Wir machen die Musik!";
 
-        VerbFinder verbFinder = new VerbFinder(new Verb("machen"), sentence);
-        assertTrue(verbFinder.find());
+        VerbFinder verbFinder = new VerbFinder(sentence);
+        assertTrue(verbFinder.find(new Verb("machen")));
     }
 }

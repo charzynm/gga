@@ -1,15 +1,17 @@
 package pl.edu.charzynm;
 
 public class WordFinder {
-    private final Word word;
     private final String sentence;
 
-    public WordFinder(Word word, String sentence) {
-        this.word = word;
+    public WordFinder(String sentence) {
         this.sentence = sentence;
     }
 
-    public boolean find() {
-        return this.sentence.contains(this.word.getName());
+    public boolean find(Word word) {
+        return this.sentence.contains(word.getName());
+    }
+
+    public boolean find(Verb verb) {
+        return new VerbFinder(this.sentence).find(verb);
     }
 }
