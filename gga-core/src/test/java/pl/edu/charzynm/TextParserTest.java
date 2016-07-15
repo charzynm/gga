@@ -16,10 +16,10 @@ public class TextParserTest {
                 "Die AusweisApp2 verfügt über einen integrierten Dienst, mit dem Sie ausprobieren können, wie einfach das Online-Ausweisen funktioniert." +
                 "Erfahren Sie mehr über die Bedeutung von Vornamen und wozu Namen überhaupt gut sind.");
         List<Word> wordList = textParser.parseText();
-        assertEquals(3, wordList.size());
         Iterator<Word> iterator = wordList.iterator();
         assertEquals("ausprobieren", iterator.next().getName());
         assertEquals("ausprobieren", iterator.next().getName());
+        assertEquals("funktionieren", iterator.next().getName());
         assertEquals("Bedeutung", iterator.next().getName());
     }
 }

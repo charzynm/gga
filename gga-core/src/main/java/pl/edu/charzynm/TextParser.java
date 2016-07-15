@@ -25,7 +25,9 @@ public class TextParser {
         List<Word> words = new ArrayList<>();
         VocabularyList vocabularyList = new VocabularyList();
         vocabularyList.readVocabularyList().forEach(word -> {
-            if (new WordFinder(word, sentence).find()) {
+            if (word instanceof Verb && new VerbFinder((Verb) word, sentence).find()) {
+                words.add(word);
+            } else if (new WordFinder(word, sentence).find()) {
                 words.add(word);
             }
         });
