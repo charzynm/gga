@@ -2,13 +2,245 @@
   "wortschatz": {
     "woerter": [
       {
+        "wortart": "adjektiv",
+        "name": "anonym"
+      },
+      {
+        "wortart": "verb",
+        "name": "ansprechen"
+      },
+      {
+        "wortart": "verb",
+        "name": "ausbrechen"
+      },
+      {
+        "wortart": "verb",
+        "name": "ausprobieren"
+      },
+      {
+        "wortart": "verb",
+        "name": "austauschen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Bedeutung"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Bildung"
+      },
+      {
         "wortart": "nomen",
         "name": "Dienstreise"
       },
       {
+        "wortart": "adverb",
+        "name": "eher"
+      },
+      {
+        "wortart": "verb",
+        "name": "einschränken"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Entscheidung"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Entspannung"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Erotik"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Ersparnis"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Fall"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Fallschirm"
+      },
+      {
+        "wortart": "verb",
+        "name": "faulenzen"
+      },
+      {
         "wortart": "verb",
         "name": "finanzieren"
+      },
+      {
+        "wortart": "verb",
+        "name": "flirten"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "folgend"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Formulierung"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Fragebogen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Fremde"
+      },
+      {
+        "wortart": "verb",
+        "name": "identifizieren"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "idyllisch"
+      },
+      {
+        "wortart": "adverb",
+        "name": "indes"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Jugendherberge"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Kommentar"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Kriterium"
+      },
+      {
+        "wortart": "verb",
+        "name": "lehren"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "malerisch"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Motel"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Motiv"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "neidisch"
+      },
+      {
+        "wortart": "verb",
+        "name": "notieren"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Panorama"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Pauschalreise"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "pittoresk"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "planlos"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "planvoll"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Prozentzahl"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Reisende"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Reisewut"
+      },
+      {
+        "wortart": "verb",
+        "name": "ruhen"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "sonstiges"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Spontanreise"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "sprachlich"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Spruch"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "teilweise"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Tor"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Tor"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Umweltbelastung"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Urlaubsziel"
+      },
+      {
+        "wortart": "verb",
+        "name": "verringern"
+      },
+      {
+        "wortart": "adverb",
+        "name": "vor allem"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "vorwiegend"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Weise"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Zuordnung"
+      },
+      {
+        "wortart": "verb",
+        "name": "zurechtkommen"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "zweitwichtigsten"
       }
-   ]
+    ]
   }
 }
