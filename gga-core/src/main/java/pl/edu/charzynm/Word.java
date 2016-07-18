@@ -10,4 +10,8 @@ public class Word {
     public String getName() {
         return name;
     }
+
+    public boolean findWordInSentence(Word word, String sentence) {
+        return new WordFinder(sentence).find(word);
+    }
 }

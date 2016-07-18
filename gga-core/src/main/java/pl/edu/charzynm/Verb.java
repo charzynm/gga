@@ -15,4 +15,13 @@ public class Verb extends Word {
     public void setWeak(boolean weak) {
         this.weak = weak;
     }
+
+    @Override
+    public boolean findWordInSentence(Word word, String sentence) {
+        return findVerbInSentence((Verb) word, sentence);
+    }
+
+    private boolean findVerbInSentence(Verb word, String sentence) {
+        return new VerbFinder(sentence).find(word);
+    }
 }

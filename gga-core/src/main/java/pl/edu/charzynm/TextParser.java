@@ -25,7 +25,7 @@ public class TextParser {
         List<Word> words = new ArrayList<>();
         VocabularyList vocabularyList = new VocabularyList();
         vocabularyList.readVocabularyList().forEach(word -> {
-            if (new WordFinder(sentence).find(word)) {
+            if (word.findWordInSentence(word, sentence)) {
                 words.add(word);
             }
         });

@@ -19,7 +19,7 @@ public class TextParserTest {
         Iterator<Word> iterator = wordList.iterator();
         assertEquals("ausprobieren", iterator.next().getName());
         assertEquals("ausprobieren", iterator.next().getName());
-        //assertEquals("funktionieren", iterator.next().getName());
+        assertEquals("funktionieren", iterator.next().getName());
         assertEquals("Bedeutung", iterator.next().getName());
     }
 }
