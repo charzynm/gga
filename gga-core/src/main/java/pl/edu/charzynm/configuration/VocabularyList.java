@@ -12,6 +12,7 @@ import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
+import pl.edu.charzynm.Noun;
 import pl.edu.charzynm.Verb;
 import pl.edu.charzynm.Word;
 
@@ -55,9 +56,12 @@ public class VocabularyList {
         wordsValue.forEach((word) -> {
             String wordType = word.get("wortart");
             String name = word.get("name");
+            String pluralForm = word.get("mehrzahl");
             if ("verb".equals(wordType)) {
                 words.add(new Verb(name));
-            } else if ("nomen".equals(wordType) || "adjektiv".equals(wordType) || "adverb".equals(wordType)) {
+            } else if ("nomen".equals(wordType)) {
+                words.add(new Noun(name, pluralForm));
+            } else if ("adjektiv".equals(wordType) || "adverb".equals(wordType)) {
                 words.add(new Word(name));
             } else {
                 words.add(new Word(name));

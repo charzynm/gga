@@ -23,7 +23,8 @@
       },
       {
         "wortart": "nomen",
-        "name": "Bedeutung"
+        "name": "Bedeutung",
+        "mehrzahl": "Bedeutungen"
       },
       {
         "wortart": "nomen",
@@ -31,7 +32,8 @@
       },
       {
         "wortart": "nomen",
-        "name": "Dienstreise"
+        "name": "Dienstreise",
+        "mehrzahl": "Dienstreise"
       },
       {
         "wortart": "adverb",
@@ -43,7 +45,8 @@
       },
       {
         "wortart": "nomen",
-        "name": "Entscheidung"
+        "name": "Entscheidung",
+        "mehrzahl": "Entscheidungen"
       },
       {
         "wortart": "nomen",
@@ -55,15 +58,18 @@
       },
       {
         "wortart": "nomen",
-        "name": "Ersparnis"
+        "name": "Ersparnis",
+        "mehrzahl": "Ersparnise"
       },
       {
         "wortart": "nomen",
-        "name": "Fall"
+        "name": "Fall",
+        "mehrzahl": "Fälle"
       },
       {
         "wortart": "nomen",
-        "name": "Fallschirm"
+        "name": "Fallschirm",
+        "mehrzahl": "Fallschirme"
       },
       {
         "wortart": "verb",
@@ -83,15 +89,18 @@
       },
       {
         "wortart": "nomen",
-        "name": "Formulierung"
+        "name": "Formulierung",
+        "mehrzahl": "Formulierungen"
       },
       {
         "wortart": "nomen",
-        "name": "Fragebogen"
+        "name": "Fragebogen",
+        "mehrzahl": "Fragebögen"
       },
       {
         "wortart": "nomen",
-        "name": "Fremde"
+        "name": "Fremde",
+        "mehrzahl": "Fremden"
       },
       {
         "wortart": "verb",
@@ -107,15 +116,18 @@
       },
       {
         "wortart": "nomen",
-        "name": "Jugendherberge"
+        "name": "Jugendherberge",
+        "mehrzahl": "Jugendherbergen"
       },
       {
         "wortart": "nomen",
-        "name": "Kommentar"
+        "name": "Kommentar",
+        "mehrzahl": "Kommentare"
       },
       {
         "wortart": "nomen",
-        "name": "Kriterium"
+        "name": "Kriterium",
+        "mehrzahl": "Kriterien"
       },
       {
         "wortart": "verb",
@@ -127,11 +139,13 @@
       },
       {
         "wortart": "nomen",
-        "name": "Motel"
+        "name": "Motel",
+        "mehrzahl": "Motels"
       },
       {
         "wortart": "nomen",
-        "name": "Motiv"
+        "name": "Motiv",
+        "mehrzahl": "Motive"
       },
       {
         "wortart": "adjektiv",
@@ -143,11 +157,13 @@
       },
       {
         "wortart": "nomen",
-        "name": "Panorama"
+        "name": "Panorama",
+        "mehrzahl": "Panoramen"
       },
       {
         "wortart": "nomen",
-        "name": "Pauschalreise"
+        "name": "Pauschalreise",
+        "mehrzahl": "Pauschalreisen"
       },
       {
         "wortart": "adjektiv",
@@ -163,11 +179,13 @@
       },
       {
         "wortart": "nomen",
-        "name": "Prozentzahl"
+        "name": "Prozentzahl",
+        "mehrzahl": "Prozentzahlen"
       },
       {
         "wortart": "nomen",
-        "name": "Reisende"
+        "name": "Reisende",
+        "mehrzahl": "Reisenden"
       },
       {
         "wortart": "nomen",
@@ -183,7 +201,8 @@
       },
       {
         "wortart": "nomen",
-        "name": "Spontanreise"
+        "name": "Spontanreise",
+        "mehrzahl": "Spontanreisen"
       },
       {
         "wortart": "adjektiv",
@@ -191,7 +210,8 @@
       },
       {
         "wortart": "nomen",
-        "name": "Spruch"
+        "name": "Spruch",
+        "mehrzahl": "Sprüche"
       },
       {
         "wortart": "adjektiv",
@@ -199,11 +219,8 @@
       },
       {
         "wortart": "nomen",
-        "name": "Tor"
-      },
-      {
-        "wortart": "nomen",
-        "name": "Tor"
+        "name": "Tor",
+        "mehrzahl": "Toren"
       },
       {
         "wortart": "nomen",
@@ -211,7 +228,8 @@
       },
       {
         "wortart": "nomen",
-        "name": "Urlaubsziel"
+        "name": "Urlaubsziel",
+        "mehrzahl": "Urlaubsziele"
       },
       {
         "wortart": "verb",
@@ -227,11 +245,13 @@
       },
       {
         "wortart": "nomen",
-        "name": "Weise"
+        "name": "Weise",
+        "mehrzahl": "Weisen"
       },
       {
         "wortart": "nomen",
-        "name": "Zuordnung"
+        "name": "Zuordnung",
+        "mehrzahl": "Zuordnungen"
       },
       {
         "wortart": "verb",
