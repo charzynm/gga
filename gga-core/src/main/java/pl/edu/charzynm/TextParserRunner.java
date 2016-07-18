@@ -1,6 +1,7 @@
 package pl.edu.charzynm;
 
 import java.util.List;
+import java.util.Map;
 
 public class TextParserRunner {
 
@@ -12,7 +13,9 @@ public class TextParserRunner {
 
         TextParser textParser = new TextParser(text);
         List<Word> words = textParser.parseText();
-        words.forEach(word -> System.out.println(word.getName()));
+        WordCounter wordCounter = new WordCounter(words);
+        Map<String, Integer> map = wordCounter.count();
+        map.forEach((word, counter) -> System.out.println(word + " " + counter));
     }
 
 }
