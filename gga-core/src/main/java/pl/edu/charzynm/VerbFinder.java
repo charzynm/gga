@@ -9,8 +9,8 @@ public class VerbFinder extends WordFinder {
     }
 
     @Override
-    public boolean find(Verb verb) {
-        VerbAnalyzer verbAnalyzer = new VerbAnalyzer(verb);
+    public boolean find(Word word) {
+        VerbAnalyzer verbAnalyzer = new VerbAnalyzer((Verb) word);
         if (verbAnalyzer.isSeparable()) {
             return findSeparableVerb(verbAnalyzer);
         } else if (this.sentence.contains(verbAnalyzer.getRoot())) {

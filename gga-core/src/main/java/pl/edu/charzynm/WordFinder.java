@@ -10,8 +10,4 @@ public class WordFinder {
     public boolean find(Word word) {
         return this.sentence.contains(word.getName());
     }
-
-    public boolean find(Verb verb) {
-        return new VerbFinder(this.sentence).find(verb);
-    }
 }
