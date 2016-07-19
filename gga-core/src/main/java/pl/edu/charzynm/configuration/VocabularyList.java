@@ -14,6 +14,7 @@ import javax.script.ScriptException;
 
 import pl.edu.charzynm.Adjective;
 import pl.edu.charzynm.Adverb;
+import pl.edu.charzynm.Conjunction;
 import pl.edu.charzynm.Noun;
 import pl.edu.charzynm.Verb;
 import pl.edu.charzynm.Word;
@@ -67,6 +68,8 @@ public class VocabularyList {
                 words.add(new Adjective(name));
             } else if ("adverb".equals(wordType)) {
                 words.add(new Adverb(name));
+            } else if ("konjunktion".equals(wordType)) {
+                words.add(new Conjunction(name));
             }
         });
         return words;

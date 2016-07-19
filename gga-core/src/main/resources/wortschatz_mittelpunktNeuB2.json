@@ -260,6 +260,121 @@
       {
         "wortart": "adjektiv",
         "name": "zweitwichtigsten"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Abenteuer"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Abreise",
+        "mehrzahl": "Abreisen"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "abwechslungsreich"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Alpen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Anfrage",
+        "mehrzahl": "Anfragen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Anrede",
+        "mehrzahl": "Anreden"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Anreise",
+        "mehrzahl": "Anreisen"
+      },
+      {
+        "wortart": "verb",
+        "name": "ausdehnen"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "außergewöhnlich"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "beeindrucken"
+      },
+      {
+        "wortart": "verb",
+        "name": "befragen"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "belastbar"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "beliebt"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Beschäftigung",
+        "mehrzahl": "Beschäftigungen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Besichtigung",
+        "mehrzahl": "Besichtigungen"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "bizarr"
+      },
+      {
+        "wortart": "verb",
+        "name": "bummeln"
+      },
+      {
+        "wortart": "konjunktion",
+        "name": "bzw."
+      },
+      {
+        "wortart": "konjunktion",
+        "name": "beziehungsweise"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Dampfbad",
+        "mehrzahl": "Dampfbäder"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "dichterisch"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Donau"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Dschungel"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "einmalig"
+      },
+      {
+        "wortart": "verb",
+        "name": "eintauchen"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "endlos"
+      },
+      {
+        "wortart": "verb",
+        "name": "erkunden"
       }
     ]
   }
