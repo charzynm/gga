@@ -1,4 +1,6 @@
-package pl.edu.charzynm;
+package pl.edu.charzynm.partofspeach;
+
+import pl.edu.charzynm.VerbFinder;
 
 public class Verb extends Word {
 

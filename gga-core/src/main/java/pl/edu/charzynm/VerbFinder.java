@@ -1,5 +1,8 @@
 package pl.edu.charzynm;
 
+import pl.edu.charzynm.partofspeach.Verb;
+import pl.edu.charzynm.partofspeach.Word;
+
 public class VerbFinder extends WordFinder {
     private final String sentence;
 

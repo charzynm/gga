@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Map;
 
 import org.junit.Test;
+import pl.edu.charzynm.partofspeach.Noun;
+import pl.edu.charzynm.partofspeach.Word;
 
 public class WordCounterTest {
     @Test

@@ -10,7 +10,7 @@ import java.util.List;
 import javax.script.ScriptException;
 
 import org.junit.Test;
-import pl.edu.charzynm.Word;
+import pl.edu.charzynm.partofspeach.Word;
 
 public class VocabularyListTest {
     @Test

@@ -1,7 +1,9 @@
-package pl.edu.charzynm;
+package pl.edu.charzynm.partofspeach;
 
-public class Preposition extends Word {
-    public Preposition(String name) {
+import pl.edu.charzynm.WordFinder;
+
+public class Adverb extends Word{
+    public Adverb(String name) {
         super(name);
     }
 

@@ -2,6 +2,8 @@ package pl.edu.charzynm;
 
 import java.util.regex.Pattern;
 
+import pl.edu.charzynm.partofspeach.Word;
+
 public class WordFinder {
     private final String sentence;
 

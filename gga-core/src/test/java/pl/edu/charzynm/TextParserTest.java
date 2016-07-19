@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.junit.Test;
+import pl.edu.charzynm.partofspeach.Word;
 
 public class TextParserTest {
     @Test

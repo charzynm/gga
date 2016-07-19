@@ -2,6 +2,8 @@ package pl.edu.charzynm;
 
 import java.util.Optional;
 
+import pl.edu.charzynm.partofspeach.Verb;
+
 public class VerbAnalyzer {
     private final Verb verb;
 

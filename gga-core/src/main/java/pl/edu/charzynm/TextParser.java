@@ -6,6 +6,7 @@ import java.util.Collection;
 import java.util.List;
 
 import pl.edu.charzynm.configuration.VocabularyList;
+import pl.edu.charzynm.partofspeach.Word;
 
 public class TextParser {
     private String text;

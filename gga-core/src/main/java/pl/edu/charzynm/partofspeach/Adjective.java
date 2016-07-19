@@ -1,7 +1,9 @@
-package pl.edu.charzynm;
+package pl.edu.charzynm.partofspeach;
 
-public class Conjunction extends Word {
-    public Conjunction(String name) {
+import pl.edu.charzynm.WordFinder;
+
+public class Adjective extends Word {
+    public Adjective(String name) {
         super(name);
     }
 

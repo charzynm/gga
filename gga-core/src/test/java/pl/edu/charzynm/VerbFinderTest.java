@@ -3,6 +3,7 @@ package pl.edu.charzynm;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+import pl.edu.charzynm.partofspeach.Verb;
 
 public class VerbFinderTest {
     @Test

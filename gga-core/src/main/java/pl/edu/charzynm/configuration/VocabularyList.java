@@ -12,12 +12,12 @@ import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
-import pl.edu.charzynm.Adjective;
-import pl.edu.charzynm.Adverb;
-import pl.edu.charzynm.Conjunction;
-import pl.edu.charzynm.Noun;
-import pl.edu.charzynm.Verb;
-import pl.edu.charzynm.Word;
+import pl.edu.charzynm.partofspeach.Adjective;
+import pl.edu.charzynm.partofspeach.Adverb;
+import pl.edu.charzynm.partofspeach.Conjunction;
+import pl.edu.charzynm.partofspeach.Noun;
+import pl.edu.charzynm.partofspeach.Verb;
+import pl.edu.charzynm.partofspeach.Word;
 
 public class VocabularyList {
     public List<? extends Word> readVocabularyList() {

@@ -3,6 +3,8 @@ package pl.edu.charzynm;
 import java.util.List;
 import java.util.Map;
 
+import pl.edu.charzynm.partofspeach.Word;
+
 public class TextParserRunner {
 
     public static void main(String[] args) {

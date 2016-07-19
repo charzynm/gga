@@ -1,6 +1,8 @@
-package pl.edu.charzynm;
+package pl.edu.charzynm.partofspeach;
 
 import java.util.Optional;
+
+import pl.edu.charzynm.NounFinder;
 
 public class Noun extends Word {
     private String pluralForm;

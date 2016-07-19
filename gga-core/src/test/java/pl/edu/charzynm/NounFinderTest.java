@@ -4,6 +4,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+import pl.edu.charzynm.partofspeach.Noun;
 
 public class NounFinderTest {
     @Test

@@ -1,4 +1,4 @@
-package pl.edu.charzynm;
+package pl.edu.charzynm.partofspeach;
 
 public abstract class Word {
     private String name;

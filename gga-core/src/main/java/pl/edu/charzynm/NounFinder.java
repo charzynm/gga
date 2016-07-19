@@ -3,6 +3,9 @@ package pl.edu.charzynm;
 import java.util.Optional;
 import java.util.regex.Pattern;
 
+import pl.edu.charzynm.partofspeach.Noun;
+import pl.edu.charzynm.partofspeach.Word;
+
 public class NounFinder extends WordFinder {
     private final String sentence;
 
