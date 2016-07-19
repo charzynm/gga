@@ -462,6 +462,214 @@
         "wortart": "nomen",
         "name": "Besteigung",
         "mehrzahl": "Besteigungen"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "historisch"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "höfisch"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Hütte",
+        "mehrzahl": "Hütten"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Hüttenerlebnis",
+        "mehrzahl": "Hüttenerlebnisse"
+      },
+      {
+        "wortart": "nomen",
+        "name": "im Voraus"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "informell"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "inkl."
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "inklusive"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Instruktion",
+        "mehrzahl": "Instruktionen"
+      },
+      {
+        "wortart": "konjunktion",
+        "name": "je"
+      },
+      {
+        "wortart": "konjunktion",
+        "name": "desto"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "jeweilig"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Karawane",
+        "mehrzahl": "Karawanen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Klassik"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Kombinationsreise",
+        "mehrzahl": "Kombinationsreisen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Kontrast",
+        "mehrzahl": "Kontraste"
+      },
+      {
+        "wortart": "adverb",
+        "name": "kürzlich"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Leistungsfähigkeit"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Luxushotel",
+        "mehrzahl": "Luxushotels"
+      },
+      {
+        "wortart": "praeposition",
+        "name": "mithilfe"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Mittelklassehotel",
+        "mehrzahl": "Mittelklassehotels"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Mountainbike",
+        "mehrzahl": "Mountainbikes"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Nationaltheater"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Nordic-Walking"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Oase",
+        "mehrzahl": "Oasen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Orchester"
+      },
+      {
+        "wortart": "nomen",
+        "name": "p. P."
+      },
+      {
+        "wortart": "nomen",
+        "name": "pro Person"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Pianist",
+        "mehrzahl": "Pianisten"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Radtour",
+        "mehrzahl": "Radtouren"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Redebeitrag",
+        "mehrzahl": "Redebeiträge"
+      },
+      {
+        "wortart": "verb",
+        "name": "richtig liegen"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "riesig"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Routenverlauf",
+        "mehrzahl": "Routenverläufe"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Ruhebereich",
+        "mehrzahl": "Ruhebereiche"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Rundgang",
+        "mehrzahl": "Rundgänge"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Sauna",
+        "mehrzahl": "Saunen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Saunawelt",
+        "mehrzahl": "Saunawelten"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "ständig"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Stil",
+        "mehrzahl": "Stile"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Suite",
+        "mehrzahl": "Suiten"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Survival-Training",
+        "mehrzahl": "Survival-Trainings"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Survival-Trip",
+        "mehrzahl": "Survival-Trips"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "5-tägig"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Topangebot",
+        "mehrzahl": "Topangebote"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Transfer",
+        "mehrzahl": "Transfers"
       }
     ]
   }

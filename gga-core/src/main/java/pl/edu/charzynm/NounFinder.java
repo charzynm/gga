@@ -1,6 +1,7 @@
 package pl.edu.charzynm;
 
 import java.util.Optional;
+import java.util.regex.Pattern;
 
 public class NounFinder extends WordFinder {
     private final String sentence;
@@ -12,7 +13,15 @@ public class NounFinder extends WordFinder {
 
     @Override
     public boolean find(Word word) {
+        Pattern pattern = Pattern.compile("\\b" + word.getName() + "\\b");
+
         Optional<String> pluralForm = ((Noun) word).getPluralForm();
-        return this.sentence.contains(word.getName()) || (pluralForm.isPresent() && this.sentence.contains(pluralForm.get()));
+        boolean containsPluralForm = false;
+        if (pluralForm.isPresent()) {
+            Pattern patternPluralForm = Pattern.compile("\\b" + pluralForm.get() + "\\b");
+            containsPluralForm = patternPluralForm.matcher(this.sentence).find();
+        }
+
+        return pattern.matcher(this.sentence).find() || containsPluralForm;
     }
 }

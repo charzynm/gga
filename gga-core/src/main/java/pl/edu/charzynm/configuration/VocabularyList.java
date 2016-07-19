@@ -70,6 +70,8 @@ public class VocabularyList {
                 words.add(new Adverb(name));
             } else if ("konjunktion".equals(wordType)) {
                 words.add(new Conjunction(name));
+            } else if ("praeposition".equals(wordType)) {
+                words.add(new Conjunction(name));
             }
         });
         return words;
