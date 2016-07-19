@@ -216,7 +216,7 @@ public class TextParserRunner {
         TextParser textParser = new TextParser(text);
         List<Word> words = textParser.parseText();
         WordCounter wordCounter = new WordCounter(words);
-        Map<String, Integer> map = wordCounter.count();
+        Map<String, Integer> map = wordCounter.sort(wordCounter.count());
         map.forEach((word, counter) -> System.out.println(word + " " + counter));
     }
 
