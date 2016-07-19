@@ -1,6 +1,6 @@
 package pl.edu.charzynm;
 
-public class Word {
+public abstract class Word {
     private String name;
 
     public Word(String name) {
@@ -11,7 +11,5 @@ public class Word {
         return name;
     }
 
-    public boolean findWordInSentence(Word word, String sentence) {
-        return new WordFinder(sentence).find(word);
-    }
+    public abstract boolean findWordInSentence(Word word, String sentence);
 }

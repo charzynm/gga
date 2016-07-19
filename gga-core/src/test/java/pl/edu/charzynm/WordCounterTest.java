@@ -12,12 +12,12 @@ public class WordCounterTest {
     @Test
     public void testWordCounter() {
         List<Word> wordList = new ArrayList<>();
-        wordList.add(new Word("test"));
-        wordList.add(new Word("test"));
-        wordList.add(new Word("test"));
-        wordList.add(new Word("test1"));
-        wordList.add(new Word("test1"));
-        wordList.add(new Word("test2"));
+        wordList.add(new Noun("test"));
+        wordList.add(new Noun("test"));
+        wordList.add(new Noun("test"));
+        wordList.add(new Noun("test1"));
+        wordList.add(new Noun("test1"));
+        wordList.add(new Noun("test2"));
 
         WordCounter wordCounter = new WordCounter(wordList);
         Map<String, Integer> map = wordCounter.count();

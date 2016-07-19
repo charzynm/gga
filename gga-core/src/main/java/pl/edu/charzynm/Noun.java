@@ -17,4 +17,9 @@ public class Noun extends Word {
     public Optional<String> getPluralForm() {
         return Optional.ofNullable(this.pluralForm);
     }
+
+    @Override
+    public boolean findWordInSentence(Word word, String sentence) {
+        return new NounFinder(sentence).find(word);
+    }
 }

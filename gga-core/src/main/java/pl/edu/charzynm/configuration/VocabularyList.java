@@ -56,15 +56,15 @@ public class VocabularyList {
         wordsValue.forEach((word) -> {
             String wordType = word.get("wortart");
             String name = word.get("name");
-            String pluralForm = word.get("mehrzahl");
             if ("verb".equals(wordType)) {
                 words.add(new Verb(name));
             } else if ("nomen".equals(wordType)) {
+                String pluralForm = word.get("mehrzahl");
                 words.add(new Noun(name, pluralForm));
             } else if ("adjektiv".equals(wordType) || "adverb".equals(wordType)) {
-                words.add(new Word(name));
+                words.add(new Noun(name));
             } else {
-                words.add(new Word(name));
+                words.add(new Noun(name));
             }
         });
         return words;

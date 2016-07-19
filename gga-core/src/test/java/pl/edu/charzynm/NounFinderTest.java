@@ -19,11 +19,11 @@ public class NounFinderTest {
         String sentence = "Diese Fälle habe ich während meiner Tätigkeit als Wissenschaftlicher Mitarbeiter an der Universität Mannheim erstellt und in den Arbeitsgemeinschaften zum Schuldrecht besprochen.";
 
         NounFinder nounFinder = new NounFinder(sentence);
-        assertTrue(nounFinder.find(new Noun("Fall")));
+        assertTrue(nounFinder.find(new Noun("Fall", "Fälle")));
 
         sentence = "Oder sie wollten sowieso schon längst einmal Ihre Meinung zu dem einen oder anderen Fall zu Gehör bringen?";
         nounFinder = new NounFinder(sentence);
-        assertTrue(nounFinder.find(new Noun("Fall")));
+        assertTrue(nounFinder.find(new Noun("Fall", "Fälle")));
     }
 
     @Test

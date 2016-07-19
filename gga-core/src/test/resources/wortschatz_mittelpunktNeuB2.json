@@ -11,7 +11,13 @@
       },
       {
         "wortart": "nomen",
-        "name": "Bedeutung"
+        "name": "Bedeutung",
+        "mehrzahl": "Bedeutungen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Fall",
+        "mehrzahl": "Fälle"
       }
     ]
   }
