@@ -12,6 +12,8 @@ import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
+import pl.edu.charzynm.Adjective;
+import pl.edu.charzynm.Adverb;
 import pl.edu.charzynm.Noun;
 import pl.edu.charzynm.Verb;
 import pl.edu.charzynm.Word;
@@ -61,10 +63,10 @@ public class VocabularyList {
             } else if ("nomen".equals(wordType)) {
                 String pluralForm = word.get("mehrzahl");
                 words.add(new Noun(name, pluralForm));
-            } else if ("adjektiv".equals(wordType) || "adverb".equals(wordType)) {
-                words.add(new Noun(name));
-            } else {
-                words.add(new Noun(name));
+            } else if ("adjektiv".equals(wordType)) {
+                words.add(new Adjective(name));
+            } else if ("adverb".equals(wordType)) {
+                words.add(new Adverb(name));
             }
         });
         return words;
