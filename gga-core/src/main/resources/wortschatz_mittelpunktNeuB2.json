@@ -375,6 +375,93 @@
       {
         "wortart": "verb",
         "name": "erkunden"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Erlebnis",
+        "mehrzahl": "Erlebnisse"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "exklusiv"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "exotisch"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Expedition",
+        "mehrzahl": "Expeditionen"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "faszinierend"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Fernweh"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Fitness-Center"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Freibad",
+        "mehrzahl": "Freibäder"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "gegenseitig"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Geschäftsbrief",
+        "mehrzahl": "Geschäftsbriefe"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Gipfelglück"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "golden"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Grußformel",
+        "mehrzahl": "Grußformeln"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Gymnastik"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Hallenschwimmbad",
+        "mehrzahl": "Hallenschwimmbäder"
+      },
+      {
+        "wortart": "verb",
+        "name": "handeln"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "heimelig"
+      },
+      {
+        "wortart": "verb",
+        "name": "herausfinden"
+      },
+      {
+        "wortart": "verb",
+        "name": "hervorgehen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Besteigung",
+        "mehrzahl": "Besteigungen"
       }
     ]
   }
