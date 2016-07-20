@@ -670,6 +670,94 @@
         "wortart": "nomen",
         "name": "Transfer",
         "mehrzahl": "Transfers"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "traumhaft"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Trekkingtour",
+        "mehrzahl": "Trekkingtouren"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Überlebenstraining",
+        "mehrzahl": "Überlebenstrainings"
+      },
+      {
+        "wortart": "verb",
+        "name": "unterkommen"
+      },
+      {
+        "wortart": "verb",
+        "name": "verfügen"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "verkehrsgünstig"
+      },
+      {
+        "wortart": "verb",
+        "name": "verkürzen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Verlängerung",
+        "mehrzahl": "Verlängerungen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Versicherungsvertreter"
+      },
+      {
+        "wortart": "verb",
+        "name": "verteidigen"
+      },
+      {
+        "wortart": "verb",
+        "name": "verweilen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Verwöhnpension",
+        "mehrzahl": "Verwöhnpensionen"
+      },
+      {
+        "wortart": "praeposition",
+        "name": "via"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Wanderung",
+        "mehrzahl": "Wanderungen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Wellnessurlaub",
+        "mehrzahl": "Wellnessurlaube"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Weltumsegelung",
+        "mehrzahl": "Weltumsegelungen"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Wert legen auf"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Wüste",
+        "mehrzahl": "Wüsten"
+      },
+      {
+        "wortart": "nomen",
+        "name": "Yoga"
+      },
+      {
+        "wortart": "adjektiv",
+        "name": "zweiminütig"
       }
     ]
   }
